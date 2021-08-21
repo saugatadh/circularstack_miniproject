@@ -34,7 +34,6 @@ Start the server
 ## Screenshots
 
 ![](screenshot/1.JPG)
-![](screenshot/2.JPG)
 ![](screenshot/3.JPG)
 
 
