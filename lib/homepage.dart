@@ -130,7 +130,7 @@ class _MyHomePageState extends State<MyHomePage> {
                   CustomButton(text: 'Top',
                       ontap: (){
                           setState(() {
-                             result = '${object.top()} is the top value of Circular Stack';
+                             result = '${object.top()} is the top value of  Stack';
                           });
                        
                       },
@@ -140,11 +140,11 @@ class _MyHomePageState extends State<MyHomePage> {
                     ontap: (){
                       if(object.isEmpty()==true){
                           setState(() {
-                            result = 'The circular Stack is empty!!';
+                            result = 'The  Stack is empty!!';
                           });
                       }else{
                         setState(() {
-                          result = 'The Circular Stack is not empty!!';
+                          result = 'The  Stack is not empty!!';
                         });
                       }
                     },
@@ -155,11 +155,11 @@ class _MyHomePageState extends State<MyHomePage> {
                     ontap: (){
                         if(object.counter==MAX_STACK_SIZE){
                           setState(() {
-                            result = 'The circular Stack is Full!!';
+                            result = 'The  Stack is Full!!';
                           });
                       }else{
                         setState(() {
-                          result = 'The Circular Stack is not full.You can insert ${MAX_STACK_SIZE - object.counter} more data in stack!!';
+                          result = 'The  Stack is not full.You can insert ${MAX_STACK_SIZE - object.counter} more data in stack!!';
                         });
                       }
                     },

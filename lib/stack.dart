@@ -14,7 +14,7 @@ class CircularStack extends GetxController {
         Node  tail;
         int counter = 0;
         CircularStack(){tail = null;}
-      //Function to check wheather the Circular Stack is empty or not
+      //Function to check wheather the  Stack is empty or not
       bool isEmpty(){
           if(tail==null){
             return true;
@@ -23,7 +23,8 @@ class CircularStack extends GetxController {
           }
       }
           
-       //Function to check wheather the Circular Stack is full or not 
+       //Function to check wheather the  Stack is full or not 
+
       bool isFull(){
           if (counter > MAX_STACK_SIZE)
           return true;
@@ -32,9 +33,10 @@ class CircularStack extends GetxController {
 
       }
 
-    //Function to push element in circular Stack
+    //Function to push element in  Stack using circular linked list
+
       void push( int value)
-            {
+         {
             counter += 1;
             Node temp = new Node();
             temp.data = value;
@@ -53,7 +55,8 @@ class CircularStack extends GetxController {
 	
       }
 
-    // Function to delete element from Circular Stack
+    // Function to delete element from  Stack in circular linked list
+    
         int pop()
               {
               int value; // Value to be popped
@@ -87,7 +90,7 @@ class CircularStack extends GetxController {
  
      
 
-            // Function displaying the elements of Circular stack
+            // Function displaying the elements of  stack from circular linked list
      List display()
             {
                 List<int> list = [];
